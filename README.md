@@ -11,6 +11,20 @@ docker-compose up --build
 ```  bash
 docker-compose up -d
 ```
+### Check Containers, get Container ID of database
+```  bash
+docker container ls
+```
+### Get Ip address where database runs
+```  bash
+docker inspect {container id}
+```
+###After that we establish connection to the pgAdmin
+ip address - copy from container details 
+database - company
+username - postgres
+password - 1234
+
 
 
 ### Creating a docker network
