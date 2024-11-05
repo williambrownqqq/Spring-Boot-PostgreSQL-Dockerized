@@ -1,5 +1,17 @@
 # Spring Boot + PostgreSQL Dockerized
 
+### To start your services while also building images if there are any changes in your Dockerfile or your application code that might affect the image
+⋅⋅*It builds the images specified in your docker-compose.yml file before starting the containers.
+⋅⋅*If any changes are detected in the files being used for the build (e.g., the Dockerfile, context directory, etc.), it will rebuild those images.
+```  bash
+docker-compose up --build
+```
+### To start your services in detached mode, meaning the containers run in the background. It does not automatically build images unless specified
+```  bash
+docker-compose up -d
+```
+
+
 ### Creating a docker network
 ``` bash
 docker network create my_network
