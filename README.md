@@ -26,7 +26,7 @@ docker inspect {container id}
 * password - 1234
 
 
-
+### Another option
 ### Creating a docker network
 ``` bash
 docker network create my_network
