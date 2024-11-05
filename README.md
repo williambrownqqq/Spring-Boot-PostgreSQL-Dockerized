@@ -6,7 +6,8 @@
 ```  bash
 docker-compose up --build
 ```
-### To start your services in detached mode, meaning the containers run in the background. It does not automatically build images unless specified
+### To start your services in detached mode, meaning the containers run in the background.
+* It does not automatically build images unless specified
 ```  bash
 docker-compose up -d
 ```
