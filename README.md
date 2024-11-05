@@ -20,10 +20,10 @@ docker container ls
 docker inspect {container id}
 ```
 ### After that we establish connection to the pgAdmin
-⋅⋅⋅ ip address - copy from container details 
-⋅⋅⋅ database - company
-⋅⋅⋅ username - postgres
-⋅⋅⋅ password - 1234
+* ip address - copy from container details 
+* database - company
+* username - postgres
+* password - 1234
 
 
 
